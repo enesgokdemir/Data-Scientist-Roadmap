@@ -1,4 +1,4 @@
-# data-scientist-roadmap
+# Data Scientist Roadmap
 
 A bunch of tutorials could easily complete this roadmap, helping whoever wants to start learning stuff about data science.
 
