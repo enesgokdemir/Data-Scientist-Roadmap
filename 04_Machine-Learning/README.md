@@ -7,7 +7,6 @@
 Machine Learning is part of the Artificial Intelligences study. It concerns the conception, devloppement and implementation of sophisticated methods, allowing a machine to achieve really hard tasks, nearly impossible to solve with classic algorithms.
 
 Machine learning mostly consists of three algorithms:
-
 ![](images/Mk.png)
 
 ### Utilisation examples
@@ -115,7 +114,6 @@ In regression, the prediction is a number, a continous a numeric value, because 
 Often we train our model so much or make our model so complex that our model fits too tghtly with the training data.
 
 The training data often contains outliers or represents misleading patterns in the data. Fitting the training data with such irregularities to deeply cause the model to lose its generalization. The model performs very well on the training set but not so good on the test set. 
-
 ![](images/over.png)
 
 As we can see on training further a point the training error decreases and testing error increases.
@@ -130,11 +128,9 @@ Variance is the variability of model prediction for a given data point or a valu
 
 
 Basically High variance causes overfitting and high bias causes underfitting. We want our model to have low bias and low variance to perform perfectly. We need to avoid a model with higher variance and high bias
-
 ![](images/biasVVariance.png)
 
 We can see that for Low bias and Low Variance our model predicts all the data points correctly. Again in the last image having high bias and high variance the model predicts no data point correctly.
-
 ![](images/Bias-Variance-tradeoff-in-Machine-Learning.png)
 
 We can see from the graph that rge Error increases when the complex is either too complex or the model is too simple. The bias increases with simpler model and Variance increases with complex models.
@@ -191,7 +187,6 @@ In parallel method or bagging technique, several weak classifiers are created in
 Ex: Random Forests
 
 In sequential learning or boosting weak learners are created one after another and the data sample set are weighted in such a manner that during creation, the next learner focuses on the samples that were wrongly predicted by the previous classifier. So, at each step, the classifier improves and learns from its previous mistakes or misclassifications.
-
 ![](images/ensemble-learning.jpg)
 
 There are mostly three types of boosting algorithm:
@@ -205,7 +200,6 @@ There are mostly three types of boosting algorithm:
 Adaboost algorithm works in the exact way describe. It creates a weak learner, also known as stumps, they are not full grown trees, but contain a single node based on which the classification is done. The misclassifications are observed and they are weighted more than the correctly classified ones while training the next weak learner. 
 
 sklearn.ensemble.AdaBoostClassifier is used for the application of the classifier on real data in python.
-
 ![](images/adaboost.jpg)
 
 Reources:
@@ -268,7 +262,6 @@ Now, we calculate the probability of a mail being a spam mail using the occurren
 #### Gaussian Naive Bayes
 
 When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution.
-
 ![](images/1_AYsUOvPkgxe3j1tEj2lQbg.gif)
 
 It links guassian distribution and Bayes theorem. 
